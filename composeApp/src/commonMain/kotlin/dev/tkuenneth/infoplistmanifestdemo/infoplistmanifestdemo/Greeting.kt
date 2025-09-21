@@ -1,9 +1,0 @@
-package dev.tkuenneth.infoplistmanifestdemo.infoplistmanifestdemo
-
-class Greeting {
-    private val platform = getPlatform()
-
-    fun greet(): String {
-        return "Hello, ${platform.name}!"
-    }
-}

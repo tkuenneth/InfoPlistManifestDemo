@@ -1,7 +1,7 @@
 package dev.tkuenneth.infoplistmanifestdemo.infoplistmanifestdemo
 
-interface Platform {
-    val name: String
-}
+enum class CameraPermission { Unknown, Granted, Denied }
 
-expect fun getPlatform(): Platform
+expect fun checkCameraPermission(): CameraPermission
+
+expect fun requestCameraPermission(callback: (CameraPermission) -> Unit)

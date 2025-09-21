@@ -1,0 +1,5 @@
+<resources>
+    <string name="take_picture">Take picture</string>
+    <string name="request_permission">Request permission</string>
+    <string name="open_settings">Open settings</string>
+</resources>

@@ -1,9 +1,6 @@
 package dev.tkuenneth.infoplistmanifestdemo.infoplistmanifestdemo
 
-import android.os.Build
+actual fun checkCameraPermission(): CameraPermission = CameraPermission.Unknown
 
-class AndroidPlatform : Platform {
-    override val name: String = "Android ${Build.VERSION.SDK_INT}"
+actual fun requestCameraPermission(callback: (CameraPermission) -> Unit) {
 }
-
-actual fun getPlatform(): Platform = AndroidPlatform()
