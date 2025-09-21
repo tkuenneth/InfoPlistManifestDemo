@@ -1,0 +1,8 @@
+//
+//  InfoPlist.strings
+//  iosApp
+//
+//  Created by Thomas Künneth on 21.09.25.
+//
+
+"NSCameraUsageDescription" = "This app needs access to your camera to do crazy things.";
